@@ -8,9 +8,9 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 string postgreSQLConnectionString = builder.Configuration.GetConnectionString("DeafultConnection");
+builder.Services.AddDbContext<AppDbContext>(options => options.UseNpgsql(postgreSQLConnectionString));
 var app = builder.Build();
 
-builder.Services.AddDbContext<AppDbContext>(options => options.UseNpgsql(postgreSQLConnectionString));
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())

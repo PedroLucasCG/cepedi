@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("cepedi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4c18c96754d7677a3e24a1a9a2eb73997f7d35b2")]
 [assembly: System.Reflection.AssemblyProductAttribute("cepedi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("cepedi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
